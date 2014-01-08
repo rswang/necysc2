@@ -1,0 +1,70 @@
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+nav ul {
+	background: white; 
+	box-shadow: 0px 0px 14px rgba(42,198,255, 0.9););
+	padding: 0 20px;
+	margin: -10px;
+	width: 100%;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	font-family: "Gill Sans";
+	text-transform: uppercase;
+}
+
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: rgba(42,198,255, 0.9);
+	}
+		nav ul li:hover a {
+			color: rgb(102, 0, 189);
+		}
+	
+	nav ul li a {
+		display: block;
+		padding: 25px 40px;
+		color: rgb(42,198,255);
+		text-decoration: none;
+
+	}
+
+nav ul ul {
+	background: #5f6975;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	width: auto;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+
+nav ul ul ul {
+	position: absolute;
+	left: 100%;
+	top:0;
+}

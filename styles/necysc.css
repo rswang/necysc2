@@ -1,0 +1,68 @@
+/* NECYSC Website CSS File */
+
+body{
+	font-family: "Gill Sans", Open Sans;
+}
+
+/* navigation */
+
+nav ul {
+	clear : right;
+	display: inline-table;
+	float: left;
+	margin: 0 0 0 30px;
+	position: relative;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li ul li {
+	border-top: 0;
+	float: none;
+	font-size: 0.8em;
+	display: block;
+	list-style: none;
+	padding: 5px 0 5px;
+	margin-right: 0;
+}
+
+ul {
+	padding-left: 40px;
+	list-style-type: none;
+/*	height: 20px;
+	margin-top: -10px;
+	position: absolute;
+	top: 50%;
+	
+*/
+}
+
+
+a {
+	font-family: "Verlag";
+	font-weight: lighter;
+	text-transform: uppercase;	
+	text-decoration: none;
+	color: rgb(42,198,255);
+}
+
+a:hover{
+	color: rgb(102, 0, 187);
+
+}
+
+nav {
+	height: 30px;
+	width: 100%;
+	padding: 15px 0;
+	margin-top: -10px;
+	position: relative;
+	box-shadow: 0 1px 14px 0 rgba(42,198,255,0.9);
+	margin: 0;
+}
+
+li {
+	float: left;
+}
