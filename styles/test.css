@@ -35,7 +35,7 @@ nav {
 	z-index: 100;
 	width: 100%;
 	height: auto;
-	margin: -10px;
+	margin: 0px;
 
 
 }
@@ -74,9 +74,11 @@ nav ul li {
 }
 	nav ul li:hover {
 		color: #34282C;
+		
 	}
 		nav ul li:hover a {
 			color: rgb(102, 0, 189);
+			
 		}
 	
 	nav ul li a {
@@ -106,10 +108,20 @@ nav ul ul {
 		}	
 			nav ul ul li a:hover {
 				color: #34282C;
+				font-weight: bolder;
 			}
 
 nav ul ul ul {
 	position: absolute;
 	left: 100%;
 	top:0;
+}
+
+
+.main {
+	padding:60px;
+	position: relative;
+	background-color: none;
+	background-image: url(http://www.pixeden.com/media/k2/galleries/112/004-subtle-light-pattern-background-texture.jpg);
+	margin: 0 -10px 0 -10px;
 }
