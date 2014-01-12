@@ -301,7 +301,7 @@ form label:hover{
 
 #pnavhead {
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 #pnavhead:hover {
@@ -371,10 +371,10 @@ form label:hover{
 				}
  
 
- /* Tables */
+ /* Sponsors */
 
  table {
- 	width: 600px;
+ 	width: 800px;
  	margin-right: auto;
  	margin-left: auto;
  }
@@ -385,4 +385,20 @@ form label:hover{
 
  td {
  	padding: 20px;
+ }
+ #sponsors a{
+ 	text-decoration: none;
+ }
+
+ #sponsorbox span{
+ 	display: none;
+ }
+
+ #sponsorbox:hover span{
+ 	display:inline;
+ };
+
+#sponsorbutton p{
+ 	background-color: rgb(42,198,255);
+ 	color: rgb(42,198,255);
  }
