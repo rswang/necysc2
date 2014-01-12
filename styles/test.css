@@ -1,9 +1,25 @@
-body {
+/*
+INDEX
+	// Typography
+	// Navigation
+	//
+*/
 
+/* TYPOGRAPHY */
+
+body {
 	font-family: 'Gill Sans', sans-serif;
 	font-size: 14pt;
 	font-weight: lighter;
 }
+
+h1, h2, h3, h4, h5, h6, .slogan{
+	font-family: 'Gill Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
 
 img {
 	
@@ -30,44 +46,32 @@ img:hover {
 	display: inline-block;
 }
 
+/* NAVIGATION */
+
+
 nav {
+	padding: 10px;
+	margin: -10px;
 	position: fixed;
 	z-index: 100;
 	width: 100%;
 	height: auto;
-	margin: 0px;
-
-
-}
-
-
-
-nav ul ul {
-	display: none;
-}
-
-	nav ul li:hover > ul {
-		display: block;
-	}
-
-nav ul {
 	background: rgb(42,198,255); 
 	box-shadow: 0px 0px 14px rgba(0,0,0, 0.9););
+}
+
+
+nav ul {
 	padding: 0 20px;
 	margin: -10px;
-	width: 100%;  
 	list-style: none;
-	position: relative;
 	display: inline-table;
 	font-family: "Gill Sans";
 	text-transform: uppercase;
 	font-size: 20px;
+	float: right;
 
 }
-
-	nav ul:after {
-		content: ""; clear: both; display: block;
-	}
 
 nav ul li {
 	float: left;
@@ -76,21 +80,24 @@ nav ul li {
 		color: #34282C;
 		
 	}
+		nav ul li a {
+			display: block;
+			padding: 25px 30px;
+			color: white;
+			text-decoration: none;
+
+		}
 		nav ul li:hover a {
 			color: rgb(102, 0, 189);
-			
 		}
-	
-	nav ul li a {
+		nav ul li:hover > ul {
 		display: block;
-		padding: 25px 40px;
-		color: white;
-		text-decoration: none;
+		}
 
-	}
 
 nav ul ul {
-	background: rgba(255, 255, 255, 0.8);
+	display: none;
+	background: rgba(255, 255, 255, 0.9);
 	padding: 0;
 	position: absolute;
 	top: 100%;
@@ -98,6 +105,7 @@ nav ul ul {
 	font-size: 20px;
 	text-transform: capitalize;
 }
+
 	nav ul ul li {
 		float: none; 
 		position: relative;
@@ -119,9 +127,262 @@ nav ul ul ul {
 
 
 .main {
-	padding:60px;
+	padding: 60px 0px;
 	position: relative;
 	background-color: none;
-	background-image: url(http://www.pixeden.com/media/k2/galleries/112/004-subtle-light-pattern-background-texture.jpg);
+	/*background-image: url(http://www.pixeden.com/media/k2/galleries/112/004-subtle-light-pattern-background-texture.jpg);
+	*/
 	margin: 0 -10px 0 -10px;
 }
+
+
+/* Forms */
+
+#message {
+	height: 60px;
+}
+
+.form_field {
+	margin-bottom: 10px;
+	font-family: "Gill Sans"; 
+    font-weight: lighter;
+}
+
+.form_field label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.text-field {
+	border: 1px #aaa solid;
+	border-radius: 5px;
+	height: 20px;
+	width: 200px;
+}
+
+#submit {
+	background-color: rgb(42,198,255);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+    padding: 5px 10px;
+	height: 40px;
+	font-family: "Gill Sans";
+	font-weight: lighter;
+	text-transform: uppercase;
+	width: 200px;
+
+}
+
+#submit:hover{
+	background-color:#8ce0ff;
+	font-weight:normal;
+}
+
+form{
+	width:200px;
+
+	vertical-align: center;
+	margin: 0px auto 0px auto;
+}
+
+form label:hover{
+	font-weight: normal;
+}
+
+
+.imgcontainer {
+	width: 70%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	display:inline-block;
+	background-size: cover;
+	float:left;
+
+}
+
+
+.announcecontainer {
+	position: relative;
+	display: inline-block;
+	width:30%;
+	height:500px;
+	background-color: #ccf498;
+	float:left;
+
+}
+
+.parallax {
+	height: 560px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 560px;
+}
+
+.parallax article{
+ 	position: absolute; 
+ 	text-align: center; 
+ 	top: 60px; 
+ 	width: 100%; 
+ 	z-index: 50;
+}
+
+/* PAGES */
+
+#home { 
+ 	background: url('../images/bg1.jpg') 50% 0 repeat fixed;
+ 	background-size: cover;
+ 	height: 100%;
+}
+ 
+#programs { 
+ 	background: url('../images/dark_purple.png') 50% 0 repeat fixed;
+}
+
+#hi {
+	background: url('../images/bg2.jpg') 50% 0 repeat fixed;
+	background-size: cover;
+}
+
+#sponsors { 
+	background: url('../images/light_grey.png') 50% 0 repeat fixed;
+}
+
+#end { 
+	background: url('../images/bg3.jpg') 50% 0 repeat fixed;;
+	background-size: cover;
+}
+
+
+#contact { 
+ 	background: url('../images/light_green.png') 50% 0 repeat fixed;
+}
+
+.color {
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+ 	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	z-index: -5;
+}
+
+
+#texture{
+	width:100%;
+    height:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:transparent url(../images/light_grey.png) center repeat;
+    opacity:0.6;
+    z-index: -4;
+}
+
+/* CONTAINERS */
+
+
+.overlay {
+	width: 20%;
+	background: rgba(255,255,255,0.8);
+	height: 360px;
+	padding: 10px 30px;
+	margin: 30px;
+	float: right;
+	border-radius: 10px;
+}
+
+#announcements {
+
+}
+
+/* PROGRAMS */
+
+#pnavhead {
+	color: white;
+	font-size: 50px;
+}
+
+#pnavhead:hover {
+	color: rgb(42,198,255);
+
+}
+
+
+.pnav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	margin-top: 100px;
+}
+
+.pnav ul {
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+
+}
+	.pnav ul li {
+		float: left; margin: 0 20px 0 0;
+	}
+		.pnav ul li a {
+			display: block; width: 120px; height: 120px;
+			background-image: url(icons.png); background-repeat: no-repeat;
+		}
+			.pnav ul li:nth-child(1) a {
+				background-color: #5bb2fc;
+				background-position: 28px 28px;
+			}
+			.pnav ul li:nth-child(2) a {
+				background-color: #FFFF00;
+				background-position: 28px -96px;
+			}
+			.pnav ul li:nth-child(3) a {
+				background-color: #ffa659;
+				background-position: 28px -222px;
+			}
+			.pnav ul li:nth-child(4) a {
+				background-color: #F52887;
+				background-position: 28px -342px;
+			}
+		
+				.pnav ul li a span {
+					font: 70px "Gill Sans", sans-serif;
+					text-transform: uppercase; 
+					position: absolute; left: 600px; top: 29px;
+					display: none;
+				}
+					.pnav ul li a:hover span {
+						display: block;
+					}
+				
+				.pnav ul li:nth-child(1) a span {
+					color: #5bb2fc;
+				}
+				.pnav ul li:nth-child(2) a span {
+					color: #ffff00;
+				}
+				.pnav ul li:nth-child(3) a span {
+					color: #ffa659;
+				}
+				.pnav ul li:nth-child(4) a span {
+					color: #F52887;
+				}
+ 
+
+ /* Tables */
+
+ table {
+ 	width: 600px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+ .sponsorimg{
+ 	width: 200px;
+ }
+
+ td {
+ 	padding: 20px;
+ }

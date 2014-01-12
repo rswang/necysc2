@@ -1,11 +1,13 @@
-
-
-$( document ).ready( function(){
-    setMaxWidth();
-    $( window ).bind( "resize", setMaxWidth ); //Remove this if it's not needed. It will react when window changes size.
-
-    function setMaxWidth() {
-    $( "#logo" ).css( "maxWidth", ( $( window ).width() * 0.7 | 0 ) + "px" );
-    }
-
+$(document).ready(function(){
+	var $window = $(window);
+	$('section[data-type="background"]').each(function(){
+	var $bgobj = $(this); // assigning the object
+	$(window).scroll(function() {
+	var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+	// Put together our final background position
+	var coords = '50% '+ yPos + 'px';
+	// Move the background
+	$bgobj.css({ backgroundPosition: coords });
+});
+});
 });
