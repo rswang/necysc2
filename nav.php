@@ -1,5 +1,5 @@
 <nav>
-	<a id='logo' href='necysc.html'>logo</a>
+	<a id='logo' href='necysc.html'><img id='navlogo' src='images/logo2.png'></a>
 	<ul>
 		<li><a href='#about'>About Us</a>
 			<ul>
