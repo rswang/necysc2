@@ -3,25 +3,41 @@
 	<head>
 		<link rel="icon" type="image/png" href='images/necysc favicon-01.png'>
 		<link rel="stylesheet" href="styles/test.css" type="test/css">
+		<link rel="stylesheet" type="text/css" href="styles/accordian/css/normalize.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="styles/flex/flexslider.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="styles/hover/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="styles/hover/style1.css" />
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="styles/flex/jquery.flexslider.js"></script>
+			<!-- Place in the <head>, after the three links -->
+			<script type="text/javascript" charset="utf-8">
+			  $(window).load(function() {
+			    $('.flexslider').flexslider();
+			  });
+			</script>
 		<script type="text/javascript" src="styles/necysc.js"></script>
+		<script type="text/javascript" src="styles/accordian/js/modernizr.custom.79639.js"></script> 
 
 		<title>NECYSC</title>
 	</head>
 	<body>
 		<!--Navigation-->
 				
-						
+		<!-- <?php include 'nav.php'; ?>-->	
 		<nav>
-			<a id='logo' href='necysc.html'>logo</a>
+			<a id='logo' href='necysc.html'><img id='navlogo' src='images/logo2.png'></a>
 			<ul>
-				<li><a href='#about'>About Us</a>
+				<li><a href='#home'>Home</a>
 					<ul>
-						<li><a href='/history/'>History</a></li>
+						<li><a href='#about'>About</a></li>
+						<li><a href='#sponsors'>Sponsors</a></li>
+						<li><a href='#contact'>Contact</a></li>
 						<li><a href='/team/'>Team</a></li>
 					</ul>
 				</li>
-				<li><a href='#programs'>Programs</a>
+				<li><a href='programs.html'>Programs</a>
 					<ul>
 						<li><a href='/day/'>Day Camp</a></li>
 						<li><a href='/overnight/'>Overnight Camp</a></li>
@@ -35,16 +51,25 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href='#faq/'>FAQ</a></li>
-				<li><a href='#contact/'>Contact</a></li>
-				<li><a href='#sponsor/'>Sponsors</a></li>
+				<li><a href='#faq/'>Campers & Parents</a>
+					<ul>
+						<li><a href=''>Forms</a></li>
+						<li><a href=''>Financial Aid</a></li>
+						<li><a href=''>Parents on Duty</a></li>
+					</ul>
+				</li>
+
+				<li><a href='faq.html'>FAQ</a></li>
 				<li><a href='login.html'>Login</a></li>
 			</ul>
 		</nav>
 		
 
 		<!--Main-->
+		<div id='surprise'><img src='https://scontent-a.xx.fbcdn.net/hphotos-ash3/1098365_10153151796150624_2112943968_n.jpg'>
+		</div>
 
+		
 		<div class='main'>
 
 			<section id="home" data-type="background" data-speed="10" class="parallax pages">     
@@ -54,40 +79,73 @@
 		         			<h1>Announcements</h1>
 		         			Registration opens February 1, 2014.
 		         		</p>
+		         			<div class="form_field">
+					            <a href='login.html'><input type = "submit" value="Apply" id = "submit"></a>
+					        </div>
 		         	</div>
 		         </article>
 		    </section>   
 		     
-			<section id = "programs" data-type="background" data-speed="10" class="parallax pages">
+			<section id = "about" data-type="background" data-speed="10" class="parallax pages">
 			         <article>
-			         	<h2 id='pnavhead'>Camp Programs</h2>
-			         	<div class='pnav'>
-							<ul>
-								<li>
-									<a href="#">
-										<span>Day</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>Overnight</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>ExplorAsian</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>Staff</span>
-									</a>
-								</li>
-								
-							</ul>
-						</div>
 
-			         </article>
+			
+				<div class="ia-container accordian">
+				
+					<figure>
+						<img src="images/bg1.jpg" alt="image01" />
+						<input type="radio" name="radio-set" checked="checked"/>
+
+						
+						<figure>
+							<img src="images/bg2.jpg" alt="image02" />
+							<input type="radio" name="radio-set" />
+							<figcaption><span>Honest Light</span></figcaption>
+							
+							<figure>
+								<img src="images/bg3.jpg" alt="image03" />
+								<input type="radio" name="radio-set" />
+								<figcaption><span>Silent Serenity</span></figcaption>
+								
+								<figure>
+									<img src="images/bg4.jpg" alt="image04" />
+									<input type="radio" name="radio-set" />
+									<figcaption><span>Warm Welcome</span></figcaption>
+									
+									<figure>
+										<img src="images/bg1.jpg" alt="image05" />
+										<input type="radio" name="radio-set" />
+										<figcaption><span>Sensible Magic</span></figcaption>
+										
+										<figure>
+											<img src="images/bg2.jpg" alt="image06" />
+											<input type="radio" name="radio-set" />
+											<figcaption><span>Lovely Midnight</span></figcaption>
+								
+											<figure>
+												<img src="images/bg3.jpg" alt="image07" />
+												<input type="radio" name="radio-set" />
+												<figcaption><span>Illuminated Darkness</span></figcaption>											
+
+												<figure>
+													<img src="images/bg4.jpg" alt="image08" />
+													<input id="ia-selector-last" type="radio" name="radio-set" />
+													<figcaption><span>Happy Child</span></figcaption>
+												</figure>
+											</figure>
+										</figure>		
+									</figure>		
+								</figure>	
+							</figure>
+						</figure>
+					</figure>
+			
+        		</div>
+				<div class="aboutcontainer">
+					<h1>About Us</h1>
+					 <p>Day Camp is for campers of ages 6-10. </p>
+				</div>
+			    </article>
 			</section>
 
 			<section id="hi" data-type="background" data-speed="10" class="parallax pages">
@@ -98,7 +156,7 @@
 
 			<section id="sponsors" data-type="background" data-speed="10" class="parallax pages">
 			         <article><h1>Sponsors</h1>
-						<table border="0">
+						<table class='sponsortable' border="0">
 						<tr>
 						<td><a href="http://www.microsoft.com/"><img class = 'sponsorimg' src="http://www.taiwanembassy.org/xslgip/Boston/images/webtitle.jpg" /></a></td>
 						<td><a href="http://www.microsoft.com/"><img class = 'sponsorimg' src="http://www.gbcca.org/files/gbcca_header.png" /></a></td>
