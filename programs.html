@@ -3,7 +3,20 @@
 	<head>
 		<link rel="icon" type="image/png" href='images/necysc favicon-01.png'>
 		<link rel="stylesheet" href="styles/test.css" type="test/css">
+		<link rel="stylesheet" href="styles/flex/flexslider.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="styles/hover/style_common.css" />
+        <link rel="stylesheet" type="text/css" href="styles/hover/style1.css" />
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+		<script src="styles/flex/jquery.flexslider.js"></script>
+			<!-- Place in the <head>, after the three links -->
+			<script type="text/javascript" charset="utf-8">
+			  $(window).load(function() {
+			    $('.flexslider').flexslider();
+			  });
+			</script>
+
 		<script type="text/javascript" src="styles/necysc.js"></script>
 
 		<title>NECYSC</title>
@@ -13,7 +26,7 @@
 				
 						
 		<nav>
-			<a id='logo' href='necysc.html'>logo</a>
+			<a id='logo' href='necysc.html'><img id='navlogo' src='images/logo2.png'></a>
 			<ul>
 				<li><a href='#about'>About Us</a>
 					<ul>
@@ -44,5 +57,201 @@
 		
 
 		<!--Main-->
+
+		<div class='main'>
+
+			<section id="programs" data-type="background" data-speed="10" class="parallax pages">     
+		         <article>
+		         	<!--PHP in the camp program naviation-->
+			         	<h2 id='pnavhead'>Camp Programs</h2>
+			         	<div class='pnav'>
+							<ul>
+								<li>
+									<a href="#day">
+										<span>Day</span>
+									</a>
+								</li>
+								<li>
+									<a href="#overnight">
+										<span>Overnight</span>
+									</a>
+								</li>
+								<li>
+									<a href="#explorasian">
+										<span>ExplorAsian</span>
+									</a>
+								</li>
+								<li>
+									<a href="#staff">
+										<span>Staff</span>
+									</a>
+								</li>
+								
+							</ul>
+						</div>
+		         </article>
+		    </section>   
+ 			<section id = "day"class="parallax pages">
+ 				<article>
+ 				</article>
+ 			</section>
+			<section id = "dayinfo" data-type="background" data-speed="10" class="parallax pages">
+		         <article>
+		         	<table class="tprograms">
+		         		<tr>
+		         			<td>
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn2/1472965_10100188269772668_868158977_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn1/995016_10100188269717778_1095035438_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-a.xx.fbcdn.net/hphotos-prn2/1476375_10100188269817578_351637814_n.jpg" />
+					    </li>
+					  </ul>
+					</div></td>	
+					<td><div class="programcontainer">
+						<h1>Day Camp</h1>
+						 <p>Day Camp is for campers of ages 6-10. </p>
+					</div></td>
+				</tr>
+			</table>
+
+		         </article>
+			</section>
+ 			<section id = "overnight" data-type="background" data-speed="10" class="parallax pages">
+ 				<article>
+ 				</article>
+ 			</section>
+			<section id="oninfo" data-type="background" data-speed="10" class="parallax pages">
+		         <article>
+		         	<table class="tprograms">
+		         		<tr>
+					<td><div class="programcontainer">
+						<h1>Day Camp</h1>
+						 <p>Day Camp is for campers of ages 6-10. </p>
+					</div></td>
+		         			<td>
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn2/1472965_10100188269772668_868158977_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn1/995016_10100188269717778_1095035438_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-a.xx.fbcdn.net/hphotos-prn2/1476375_10100188269817578_351637814_n.jpg" />
+					    </li>
+					  </ul>
+					</div></td>	
+
+				</tr>
+			</table>
+				
+		         </article>
+			</section>  
+ 			<section id = "explorasian" data-type="background" data-speed="10" class="parallax pages">
+ 				<article>
+ 				</article>
+ 			</section>
+			<section id="eainfo" data-type="background" data-speed="10" class="parallax pages">
+		         <article>
+
+		         	<table class="tprograms">
+		         		<tr>
+		         			<td>
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn2/1472965_10100188269772668_868158977_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn1/995016_10100188269717778_1095035438_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-a.xx.fbcdn.net/hphotos-prn2/1476375_10100188269817578_351637814_n.jpg" />
+					    </li>
+					  </ul>
+					</div></td>	
+					<td><div class="programcontainer">
+						<h1>Day Camp</h1>
+						 <p>Day Camp is for campers of ages 6-10. </p>
+					</div></td>
+				</tr>
+			</table>
+		         </article>
+			</section>  
+
+			<section id="staff" data-type="background" data-speed="10" class="parallax pages">
+		        <article>
+		         	<table class="tprograms">
+		         		<tr>
+					<td><div class="programcontainer">
+						<h1>Day Camp</h1>
+						 <p>Day Camp is for campers of ages 6-10. </p>
+					</div></td>
+		         			<td>
+					<div class="flexslider">
+					  <ul class="slides">
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn2/1472965_10100188269772668_868158977_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-b.xx.fbcdn.net/hphotos-prn1/995016_10100188269717778_1095035438_n.jpg" />
+					    </li>
+					    <li>
+					      <img src="https://scontent-a.xx.fbcdn.net/hphotos-prn2/1476375_10100188269817578_351637814_n.jpg" />
+					    </li>
+					  </ul>
+					</div></td>	
+
+				</tr>
+			</table>
+				
+					<table>
+						<tr>
+							<td>
+
+	                <div class="view view-first">
+	                    <img src="images/bg1.jpg" />
+	                    <div class="mask">
+	                        <h2>CITs</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="forms/cit.pdf" class="info">Apply</a>
+	                    </div>
+	                </div>  </td>
+	                <td>
+	                <div class="view view-first">
+	                    <img src="images/bg2.jpg" />
+	                    <div class="mask">
+	                        <h2>Counselors</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="forms/counselor.pdf" class="info">Apply</a>
+	                    </div>
+	                </div>  </td>
+	                <td>
+	                <div class="view view-first">
+	                    <img src="images/bg3.jpg" />
+	                    <div class="mask">
+	                        <h2>Residential Advisors</h2>
+	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <a href="forms/" class="info">Apply</a>
+	                    </div>
+	                </div>  
+	            </td>
+	        </table>
+
+		         </article>
+			</section> 
+
+
+			</div>
+			<div id='texture'></div>
+
+	 </div>
 	</body>
 </html>
