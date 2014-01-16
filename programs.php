@@ -147,11 +147,9 @@
 					      <img src="images/ea2.jpg" />
 					    </li>
 					    <li>
-<<<<<<< HEAD
-					      <img src="images/bg7.JPG" />
-=======
 					      <img src="images/bg1.jpg" />
->>>>>>> bb94a0cacf504f8011c9224efb3ade6bfb0e8014
+					      <img src="images/bg1.jpg" />
+
 					    </li>
 					  </ul>
 					</div></td>	
