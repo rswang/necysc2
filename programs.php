@@ -113,16 +113,16 @@
 					<div class="flexslider">
 					  <ul class="slides">
 					    <li>
-					      <img src="images/on1.jpg" />
+					      <img src="images/on1.JPG" />
 					    </li>
 					    <li>
-					      <img src="images/on2.jpg" />
+					      <img src="images/on2.JPG" />
 					    </li>
 					    <li>
-					      <img src="images/on3.jpg" />
+					      <img src="images/on3.JPG" />
 					    </li>
 					    <li>
-					      <img src="images/on4.jpg" />
+					      <img src="images/on4.JPG" />
 					    </li>
 					  </ul>
 					</div></td>	
@@ -147,7 +147,7 @@
 					      <img src="images/ea2.jpg" />
 					    </li>
 					    <li>
-					      <img src="images/bg7.jpg" />
+					      <img src="images/bg7.JPG" />
 					    </li>
 					  </ul>
 					</div></td>	
@@ -175,13 +175,13 @@
 					<div class="flexslider">
 					  <ul class="slides">
 					    <li>
-					      <img src="images/staff1.jpg" />
+					      <img src="images/staff1.JPG" />
 					    </li>
 					    <li>
-					      <img src="images/staff2.jpg" />
+					      <img src="images/staff2.JPG" />
 					    </li>
 					    <li>
-					      <img src="images/staff3.jpg" />
+					      <img src="images/staff3.JPG" />
 					    </li>
 					  </ul>
 					</div></td>	
