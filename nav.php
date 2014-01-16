@@ -1,12 +1,12 @@
 		<nav>
 			<a id='logo' href='necysc.php'><img id='navlogo' src='images/logo2.png'></a>
 			<ul>
-				<li><a href='#home'>Home</a>
+				<li><a href='necysc.php'>Home</a>
 					<ul>
 						<li><a href='#about'>About</a></li>
 						<li><a href='#sponsors'>Sponsors</a></li>
 						<li><a href='#contact'>Contact</a></li>
-						<li><a href='/team/'>Team</a></li>
+						<li><a href='#team'>Team</a></li>
 					</ul>
 				</li>
 				<li><a href='programs.php'>Programs</a>
@@ -23,7 +23,7 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href='campers.php'>Campers & Parents</a>
+				<li><a href='forms.php'>Campers & Parents</a>
 					<ul>
 						<li><a href='forms.php'>Forms</a></li>
 						<li><a href=''>Financial Aid</a></li>
