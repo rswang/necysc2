@@ -23,7 +23,7 @@
 	                    <img src="images/bg1.jpg" />
 	                    <div class="mask">
 	                        <h2>Day Camp</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <p>I love day camp.</p>
 	                        <a href="#day" class="info">Read More</a>
 	                    </div>
 	                </div>  </td>
@@ -32,7 +32,7 @@
 	                    <img src="images/bg2.jpg" />
 	                    <div class="mask">
 	                        <h2>Overnight Camp</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <p>I love overnight camp.</p>
 	                        <a href="#overnight" class="info">Read More</a>
 	                    </div>
 	                </div>  </td>
@@ -43,7 +43,7 @@
 	                    <img src="images/bg3.jpg" />
 	                    <div class="mask">
 	                        <h2>ExplorAsian</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <p>I love explorasia.</p>
 	                        <a href="#explorasian" class="info">Read More</a>
 	                    </div>
 	                </div>  
@@ -53,7 +53,7 @@
 	                    <img src="images/bg4.jpg" />
 	                    <div class="mask">
 	                        <h2>Staff</h2>
-	                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+	                        <p>I LOVEEEE STAFFFF!!!</p>
 	                        <a href="#staff" class="info">Read More</a>
 	                    </div>
 	                </div>  
@@ -147,7 +147,11 @@
 					      <img src="images/ea2.jpg" />
 					    </li>
 					    <li>
+<<<<<<< HEAD
 					      <img src="images/bg7.JPG" />
+=======
+					      <img src="images/bg1.jpg" />
+>>>>>>> bb94a0cacf504f8011c9224efb3ade6bfb0e8014
 					    </li>
 					  </ul>
 					</div></td>	

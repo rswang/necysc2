@@ -335,8 +335,12 @@ form label:hover{
 }
 
 #end { 
+<<<<<<< HEAD
 	background: url('../images/dark_purple.png') 50% 0 repeat fixed;;
 	background-size: cover;
+=======
+	background: url('../images/dark_purple.jpg') 50% 0 repeat fixed;;
+>>>>>>> bb94a0cacf504f8011c9224efb3ade6bfb0e8014
 }
 
 
