@@ -148,7 +148,7 @@
 					    </li>
 					    <li>
 					      <img src="images/bg1.jpg" />
-					      <img src="images/bg1.jpg" />
+
 
 					    </li>
 					  </ul>
