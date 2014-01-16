@@ -1,5 +1,5 @@
 		<nav>
-			<a id='logo' href='necysc.html'><img id='navlogo' src='images/logo2.png'></a>
+			<a id='logo' href='necysc.php'><img id='navlogo' src='images/logo2.png'></a>
 			<ul>
 				<li><a href='#home'>Home</a>
 					<ul>
@@ -9,9 +9,9 @@
 						<li><a href='/team/'>Team</a></li>
 					</ul>
 				</li>
-				<li><a href='programs.html'>Programs</a>
+				<li><a href='programs.php'>Programs</a>
 					<ul>
-						<li><a href='programs.html#day'>Day Camp</a></li>
+						<li><a href='programs.php#day'>Day Camp</a></li>
 						<li><a href='/overnight/'>Overnight Camp</a></li>
 						<li><a href='/explorasian/'>ExplorAsian</a></li>
 						<li><a href='/staff'>Staff</a>
@@ -23,16 +23,16 @@
 						</li>
 					</ul>
 				</li>
-				<li><a href='campers.html'>Campers & Parents</a>
+				<li><a href='campers.php'>Campers & Parents</a>
 					<ul>
-						<li><a href='forms.html'>Forms</a></li>
+						<li><a href='forms.php'>Forms</a></li>
 						<li><a href=''>Financial Aid</a></li>
 						<li><a href=''>Parents on Duty</a></li>
 					</ul>
 				</li>
 
-				<li><a href='faq.html'>FAQ</a></li>
-				<li><a href='login.html'>Login</a></li>
+				<li><a href='faq.php'>FAQ</a></li>
+				<li><a href='login.php'>Login</a></li>
 			</ul>
 		</nav>
 		
