@@ -28,6 +28,19 @@ INDEX
 
 /* TYPOGRAPHY */
 
+.main a{
+	color: rgb(42, 198, 255);
+	font-weight: normal;
+	text-decoration: none;
+}
+
+strong{
+	font-weight: normal;
+}
+.main a:hover{
+	color: #34282C;
+}
+
 body {
 	font-family: 'Gill Sans', sans-serif;
 	font-size: 14pt;
@@ -70,6 +83,7 @@ img:hover {
 
 #navlogo{
 	width: 200px;
+	margin: 0px 20px;
 }
 
 nav {
@@ -205,6 +219,20 @@ nav ul ul ul {
 
 }
 
+#formsubmit {
+	background-color: rgb(42,198,255);
+	border: 0pt;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+    padding: 5px 10px;
+	height: 100px;
+	font-family: "Gill Sans";
+	font-weight: lighter;
+	text-transform: uppercase;
+	width: 250px;
+}
+
 #submit:hover{
 	background-color:#8ce0ff;
 	font-weight:normal;
@@ -233,10 +261,15 @@ form label:hover{
 
 }
 
-.aboutcontainer{
+#aboutus{
 	display:block;
-}
+	width: 685px;
+	margin-right: auto;
+	margin-left: auto;
+	float: none;
+	height: auto;
 
+}
 
 .announcecontainer {
 	position: relative;
@@ -280,21 +313,29 @@ form label:hover{
  	height: 100%;
 }
  
-#programs { 
- 	background: url('../images/dark_purple.png') 50% 0 repeat fixed;
+#programs{
+	background: url('../images/dark_purple.png') 50% 0 repeat fixed;
+}
+
+#about { 
+ 	background: url('../images/light_green.png') 50% 0 repeat fixed;
+
+ 	height: 650px;
 }
 
 #hi {
-	background: url('../images/bg2.jpg') 50% 0 repeat fixed;
+	background: url('../images/bg7.jpg') 50% 0 repeat fixed;
+
 	background-size: cover;
 }
 
 #sponsors { 
 	background: url('../images/light_grey.png') 50% 0 repeat fixed;
+	height: 600px;
 }
 
 #end { 
-	background: url('../images/bg3.jpg') 50% 0 repeat fixed;;
+	background: url('../images/bg8.jpg') 50% 0 repeat fixed;;
 	background-size: cover;
 }
 
@@ -304,37 +345,24 @@ form label:hover{
 }
 
 #day { 
-	background: url('../images/day.jpg') 50% 0 repeat fixed;;
-	background-size: cover;
-}
-
-#dayinfo{
-	background: url('../images/light_grey.png') 50% 0 repeat fixed;
+	background: url('../images/blue_snow-01.png') 50% 0 repeat fixed;
 }
 
 
 #overnight { 
-	background: url('../images/on.jpg') 50% 0 repeat fixed;;
-	background-size: cover;
-}
-
-#oninfo{
-	background: url('../images/light_grey.png') 50% 0 repeat fixed;
+	background: url('../images/light_purple.png') 50% 0 repeat fixed;
 
 }
 
 #explorasian { 
-	background: url('../images/ea.jpg') 50% 0 repeat fixed;;
-	background-size: cover;
-}
 
-#eainfo{
 	background: url('../images/light_grey.png') 50% 0 repeat fixed;
 }
 
 
 #staff { 
 	background-color: purple;
+	height: 850px;
 }
 
 #faq { 
@@ -385,17 +413,26 @@ article div{
 }
 
 .programcontainer {
-	width: 200px;
-	background: rgba(255,255,255,0.8);
-
+	width: 300px;
+	background: rgba(255,255,255,0.5);
 	padding: 10px 30px;
-	margin: 30px;
+	margin: 0px 30px 0px 30px;
 	border-radius: 10px;
 	float:left;
 }
+.programcontainer p{
+	text-align:left;
+}
+.programcontainer p strong{
+
+}
+
+.description{
+	font-size: 18px;
+}
 
 #announcements {
-
+	overflow: auto;
 }
 
 .faqcontainer{
@@ -482,6 +519,7 @@ article div{
 				}
  
 
+
  /* Sponsors */
 
 .sponsortable {
@@ -498,24 +536,35 @@ article div{
  }
 
  td {
- 	padding: 20px;
+ 	padding: 10px;
  }
+
+#programs td{
+	padding: 0px;
+}
+
  #sponsors a{
  	text-decoration: none;
+ 	color: black;
+ 	font-weight:lighter;
  }
-
- #sponsorbox span{
- 	display: none;
+ #sponsors a:hover{
+ 	color: rgb(42, 198, 255);
  }
+ 
+#pup {
+  position:absolute;
+  z-index:200; /* aaaalways on top*/
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 250px;
+  border-radius: 5px;
+  background-color: #777;
+  color: white;
+  font-size: 0.95em;
+}
 
- #sponsorbox:hover span{
- 	display:inline;
- };
-
-#sponsorbutton p{
- 	background-color: rgb(42,198,255);
- 	color: rgb(42,198,255);
- }
 
  /* Image Slider */
 .flexslider{
@@ -650,11 +699,11 @@ table #faqtable{
 	position: absolute;
 	top: 40%;
 	margin-top: -30px;
-	right: 20px;
-	left: 20px;
+	right: 0px;
+	left: 0px;
 	overflow: hidden;
 	text-align: center;
-	background: rgba(87, 73, 81, 0.3);
+	background: rgba(0, 0, 0, 0.5);
 	line-height: 20px;
 	font-size: 18px;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -662,7 +711,7 @@ table #faqtable{
     opacity: 0;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	font-weight: 700;
+	font-weight: normal;
 	padding: 20px;
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
@@ -684,7 +733,7 @@ table #faqtable{
     filter: alpha(opacity=99);
 	opacity: 1;
 	
-	top: 50%;
+	top: 80%;
 }
 
 .ia-container #ia-selector-last:checked + figcaption span {
@@ -753,27 +802,8 @@ table #faqtable{
 
 }
 
-
-/* General Demo Style */
-.accordian body{
-	font-family: 'Gill Sans', serif;
-	background: #ddd url(../images/bg.jpg) repeat top left;
-	font-weight: lighter;
-	font-size: 15px;
-	color: #333;
+#programtable{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
 }
-.accordian a{
-	color: #555;
-	text-decoration: none;
-}
-.accordian  .container{
-	width: 100%;
-	position: relative;
-}
-.clr{
-	clear: both;
-	padding: 0;
-	height: 0;
-	margin: 0;
-}
-
