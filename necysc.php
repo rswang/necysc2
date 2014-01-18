@@ -44,32 +44,27 @@
 						<figure>
 							<img src="images/bg2.jpg" alt="image02" />
 							<input type="radio" name="radio-set" />
-							<figcaption><span>New</span></figcaption>
+
 							
 							<figure>
 								<img src="images/bg3.jpg" alt="image03" />
 								<input type="radio" name="radio-set" />
-								<figcaption><span>England</span></figcaption>
-								
+
 								<figure>
 									<img src="images/bg4.jpg" alt="image04" />
 									<input type="radio" name="radio-set" />
-									<figcaption><span>Chinese</span></figcaption>
 									
 									<figure>
 										<img src="images/bg1.jpg" alt="image05" />
 										<input type="radio" name="radio-set" />
-										<figcaption><span>Youth</span></figcaption>
 										
 										<figure>
 											<img src="images/bg2.jpg" alt="image06" />
 											<input type="radio" name="radio-set" />
-											<figcaption><span>Summer</span></figcaption>
 								
 											<figure>
 												<img src="images/bg3.jpg" alt="image07" />
-												<input type="radio" name="radio-set" />
-												<figcaption><span>Camp</span></figcaption>											
+												<input type="radio" name="radio-set" />										
 
 												<figure>
 													<img src="images/bg4.jpg" alt="image08" />
