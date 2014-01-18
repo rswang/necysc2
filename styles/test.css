@@ -190,11 +190,13 @@ nav ul ul ul {
 	margin-bottom: 10px;
 	font-family: "Gill Sans"; 
     font-weight: lighter;
+    float: right;
+    width: 300px;
 }
 
 .form_field label {
     display: block;
-    margin-bottom: 3px;
+    float: left;
 }
 
 .text-field {
@@ -202,13 +204,15 @@ nav ul ul ul {
 	border-radius: 5px;
 	height: 20px;
 	width: 200px;
+	float:right;
 }
 
-.text-field {
+.text-area {
 	border: 1px #aaa solid;
 	border-radius: 5px;
 	height: 100px;
 	width: 200px;
+	float: right;
 }
 
 #submit {
@@ -217,13 +221,15 @@ nav ul ul ul {
 	border-radius: 5px;
 	color: white;
 	font-size: 20px;
-    padding: 5px 10px;
+    padding: 5px 15px;
 	height: 40px;
 	font-family: "Gill Sans";
 	font-weight: lighter;
 	text-transform: uppercase;
-	width: 200px;
-
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
 }
 
 #formsubmit {
@@ -246,10 +252,10 @@ nav ul ul ul {
 }
 
 form{
-	width:200px;
-
-	vertical-align: center;
-	margin: 0px auto 0px auto;
+	width:300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 form label:hover{
@@ -307,6 +313,7 @@ form label:hover{
 
 #contactbox{
 	width: 300px;
+	height: 320px;
 	margin-right: auto;
 	margin-left: auto;
 	float: none;
