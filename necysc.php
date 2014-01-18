@@ -147,7 +147,7 @@
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>
-					            <input type="textarea"  name="message" maxlength="1000" cols="25" rows="6">
+					            <input type="text"  name="message" class="text-field" maxlength="1000" cols="25" rows="6">
 					        </div>
 					        <div class="form_field">
 					            <input type = "submit" value="Send" id = "submit">
