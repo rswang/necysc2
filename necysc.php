@@ -131,11 +131,11 @@
 					    <form action="mailform.php" method="post" enctype="text/plain">
 					        <div class="form_field">
 					            <label for="name">Name:</label>
-					            <input type="text" id="name" name="name" value="" class="text-field"/>
+					            <input type="text" name="name" value="" class="text-field"/>
 					        </div>
 					        <div class="form_field">
 					            <label for="email">Email:</label>
-					            <input type="text" id="email" name="email" value="" class="text-field"/>
+					            <input type="text" name="email" value="" class="text-field"/>
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>

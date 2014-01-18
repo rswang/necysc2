@@ -48,7 +48,7 @@ if(isset($_POST['email'])) {
  
     $name = $_POST['name']; // required
  
-    $email = $_POST['email']; // required
+    $email_from = $_POST['email']; // required
  
     $message = $_POST['message']; // required
  
@@ -58,7 +58,7 @@ if(isset($_POST['email'])) {
  
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
-  if(!preg_match($email_exp,$email)) {
+  if(!preg_match($email_exp,$email_from)) {
  
     $error_message .= 'The email address you entered does not appear to be valid.<br />';
  
@@ -100,7 +100,7 @@ if(isset($_POST['email'])) {
  
     $email_message .= "Name: ".clean_string($name)."\n";
 
-    $email_message .= "Email: ".clean_string($email)."\n";
+    $email_message .= "Email: ".clean_string($email_from)."\n";
  
     $email_message .= "Message: ".clean_string($message)."\n";
  
@@ -110,9 +110,9 @@ if(isset($_POST['email'])) {
  
 // create email headers
  
-$headers = 'From: '."rachelwang1994@gmail.com"."\r\n".
+$headers = 'From: '.$email_from."\r\n".
  
-'Reply-To: '."rachelwang1994@gmail.com"."\r\n" .
+'Reply-To: '.$email_from."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  
