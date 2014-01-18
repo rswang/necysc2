@@ -11,19 +11,30 @@ if (isset($_REQUEST['email']))
   $message = $_REQUEST['message'] ;
   mail("rswang@mit.edu", $subject,
   $message, "From:" . $email);
-  alert("Thank you for using our mail form");
+  alert "Thank you for using our mail form";
   }
 else
 //if "email" is not filled out, display the form
   {
-  echo "<form method='post' action='sendemail.php'>
-  Email: <input name='email' type='text'><br>
-  Subject: <input name='subject' type='text'><br>
-  Message:<br>
-  <textarea name='message' rows='15' cols='40'>
-  </textarea><br>
-  <input type='submit'>
-  </form>";
+  echo "       
+          <form action="sendemail.php" method="post" enctype="text/plain">
+              <div class="form_field">
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" value="" class="text-field"/>
+              </div>
+              <div class="form_field">
+                  <label for="email">Email:</label>
+                  <input type="text" name="email" value="" class="text-field"/>
+              </div>
+              <div class="form_field">
+                  <label for="message">Message:</label>
+                  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+              </div>
+              <div class="form_field">
+                  <input type = "submit" value="Send" id = "submit">
+              </div>
+          </form>
+        ";
   }
 ?>
 
