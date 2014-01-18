@@ -130,10 +130,12 @@
 
 			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
+
 			        	<table>
 			        		<tr>
 			        			<td>
-		         	<div class = 'overlay contactbox'>
+			        	<div class = 'overlay' id='contactbox'>
+		         	
 		         		<h1>Contact Us</h1>
 
 					    <form id="contactform" method="post" enctype="text/plain" action="">
@@ -147,13 +149,14 @@
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>
-					            <textarea form="contactform" name="message" cols="25" rows="6"></textarea>
+					            <textarea form="contactform" name="message" class="text-area"></textarea>
 					        </div>
 					        <div class="form_field">
 					            <input type = "submit" value="Send" id = "submit">
 					        </div>
 					    </form>
-		         	</div>
+</div>
+
 		         </td>
 		         <td>
 		         	TEAM!!!
