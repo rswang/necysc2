@@ -235,6 +235,18 @@ nav ul ul ul {
 }
 
 #send{
+	background-color: rgb(42,198,255);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+    padding: 5px 15px;
+	height: 40px;
+	font-family: "Gill Sans";
+	font-weight: lighter;
+	text-transform: uppercase;
+	margin-right: auto;
+	margin-left: auto;
 	width:100px;
 	margin-top: 10px;
 }
