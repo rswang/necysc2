@@ -228,9 +228,14 @@ nav ul ul ul {
 	font-family: "Gill Sans";
 	font-weight: lighter;
 	text-transform: uppercase;
-	width: 100px;
+	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
+	
+}
+
+#send{
+	width:100px;
 	margin-top: 10px;
 }
 

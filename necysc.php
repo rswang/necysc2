@@ -206,7 +206,7 @@
 					            <textarea form="contactform" name="message" class="text-area"></textarea>
 					        </div>
 					        <div class="form_field">
-					            <input type = "submit" value="Send" id = "submit">
+					            <input type = "submit" value="Send" id = "send">
 					        </div>
 					    </form>
 </div>
