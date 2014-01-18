@@ -19,19 +19,18 @@
 		<div class='main'>
 
 			<section id="home" data-type="background" data-speed="10" class="parallax pages">     
-		         <article>
 		         	<div id = 'announcements' class = 'overlay'>
 	         			<h1>Announcements</h1>
 		         			<p>Camper registration opens <strong>February 1, 2014</strong>. The priority deadline is <strong>February 14</strong> for returning campers. After the priority deadline, campers will be accepted on a first-come, first-serve basis.</p>
 		         			<p>Counselor and CIT applications have been released and are due <strong>February 1</strong> and <strong>February 14</strong>, respectively.</p>
-		         			<div class="form_field">
+		         			<div>
 					            <a href='forms/counselor.pdf'><input type = "submit" value="Counselors" id = "submit"></a>
-					        </div>
-					        <div class="form_field">
+					        </div><p></p>
+					        <div>
 					        <a href='forms/cit.pdf'><input type = "submit" value="CITs" id = "submit"></a>
 					    </div>
 		         	</div>
-		         </article>
+
 		    </section>   
 		     
 			<section id = "about" data-type="background" data-speed="10" class="parallax pages">

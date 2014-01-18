@@ -233,7 +233,6 @@ nav ul ul ul {
 	width: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	
 }
 
 #send{
@@ -468,8 +467,10 @@ article div{
 }
 
 #announcements {
-	vertical-align: center;
+ 	text-align: center; 
+ 	margin-top: 50px;
 	overflow: auto;
+	height: 80%;
 }
 
 .faqcontainer{
