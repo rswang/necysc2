@@ -127,12 +127,66 @@
 						<a onmouseover="nhpup.popup('If you wish to become a sponsor or advertise in our weekbook, please contact pr@necysc.org.');" href='mailto:pr@necysc.org?Subject=NECYSC%20Sponsor%20Interest'><input type = "submit" value="Sponsor NECYSC!" id = "submit"></a>
 			         </article>
 			</section>  
-
 			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
 
-			        	<table>
+			        	<table class="center">
 			        		<tr>
+
+		         <td>
+		         	<h1>Committee 2014</h1>
+		         	<table id = "committee">
+		         		<tr>
+		         			<td>
+		         				<strong>Director</strong>
+		         			</td>
+		         			<td>
+		         				Ann Su, Noelle Chan (Assistant Director), Fei Han (Assistant Director)
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				<strong>Education</strong>
+		         			</td>
+		         			<td>
+		         				Jason Chiang, Calvin Chuang, Wen-Hao Tien, Melanie Yang, Teresa Lu, Eric Wang
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				<strong>General Admin</strong>
+		         			</td>
+		         			<td>
+		         				Mark Jurman, JoJo Cho, Deb Jonas-Walsh
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				<strong>Public Relations</strong>
+		         			</td>
+		         			<td>
+		         				Lisa Gallagher, Simone Lee, Julia Zhu, Christine Ruffley, Jane Martin
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				<strong>Registration</strong>
+		         			</td>
+		         			<td>
+		         				Dong Liu, Helen Poon, Hong Xu, Yun Guo, Hsien Chi Lin
+		         			</td>
+		         		</tr>	
+		         		<tr>
+		         			<td>
+		         				<strong>Treasurer</strong>
+		         			</td>
+		         			<td>
+		         				Nancy Feng, Meifang Hsu
+		         			</td>
+		         		</tr>      
+		         		</table>		
+
+		         </td>
 			        			<td>
 			        	<div class = 'overlay' id='contactbox'>
 		         	
@@ -158,67 +212,13 @@
 </div>
 
 		         </td>
-		         <td>
-		         	<h1>Committee 2014</h1>
-		         	<table>
-		         		<tr>
-		         			<td>
-		         				Director & Assistant Directors
-		         			</td>
-		         			<td>
-		         				Ann Su, Noelle Chan (asst), Fei Han (asst)
-		         			</td>
-		         		</tr>
-		         		<tr>
-		         			<td>
-		         				Education
-		         			</td>
-		         			<td>
-		         				Jason Chiang, Calvin Chuang, Wen-Hao Tien, Melanie Yang, Teresa Lu, Eric Wang
-		         			</td>
-		         		</tr>
-		         		<tr>
-		         			<td>
-		         				General Admin
-		         			</td>
-		         			<td>
-		         				Mark Jurman, JoJo Cho, Deb Jonas-Walsh
-		         			</td>
-		         		</tr>
-		         		<tr>
-		         			<td>
-		         				Public Relations
-		         			</td>
-		         			<td>
-		         				Lisa Gallagher, Simone Lee, Julia Zhu, Christine Ruffley, Jane Martin
-		         			</td>
-		         		</tr>
-		         		<tr>
-		         			<td>
-		         				Registration
-		         			</td>
-		         			<td>
-		         				Dong Liu, Helen Poon, Hong Xu, Yun Guo, Hsien Chi Lin
-		         			</td>
-		         		</tr>	
-		         		<tr>
-		         			<td>
-		         				Treasurer
-		         			</td>
-		         			<td>
-		         				Nancy Feng, Meifang Hsu
-		         			</td>
-		         		</tr>      
-		         		</table>		
-
-		         </td>
 		     </tr>
 		 </table>
 
 			         </article>
-			</section> 
+			</section>
 			<section id="end" data-type="background" data-speed="10" class="parallax pages">
-			         <article>team</article>
+			         <article>hm what else...</article>
 			</section> 
 			</div>
 			<div id='texture'></div>
