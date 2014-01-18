@@ -135,9 +135,6 @@
 							  $message = $_REQUEST['message'] ;
 							  mail("rswang@mit.edu", $subject,
 							  $message, "From:" . $email);
-							  echo "<script> window.alert("Thanks!");</script>";
-
-
 							?>
 							">
 					        <div class="form_field">
