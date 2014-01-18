@@ -129,7 +129,17 @@
 		         	<div class = 'overlay' id='contactbox'>
 		         		<h1>Contact Us</h1>
 
-					    <form action="sendemail.php" method="post" enctype="text/plain">
+					    <form method="post" enctype="text/plain" action="<?php
+							  $email = $_REQUEST['email'] ;
+							  $subject = $_REQUEST['subject'] ;
+							  $message = $_REQUEST['message'] ;
+							  mail("rswang@mit.edu", $subject,
+							  $message, "From:" . $email);
+							  echo "<script> window.alert("Thanks!");</script>";
+
+
+							?>
+							">
 					        <div class="form_field">
 					            <label for="name">Name:</label>
 					            <input type="text" name="name" value="" class="text-field"/>
