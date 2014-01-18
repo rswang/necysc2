@@ -204,6 +204,13 @@ nav ul ul ul {
 	width: 200px;
 }
 
+.text-field {
+	border: 1px #aaa solid;
+	border-radius: 5px;
+	height: 100px;
+	width: 200px;
+}
+
 #submit {
 	background-color: rgb(42,198,255);
 	border: none;
@@ -299,7 +306,7 @@ form label:hover{
 }
 
 #contactbox{
-	width: 600px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
 	float: none;

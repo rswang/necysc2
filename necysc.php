@@ -133,7 +133,7 @@
 			        	<table>
 			        		<tr>
 			        			<td>
-		         	<div class = 'overlay'>
+		         	<div class = 'overlay contactbox'>
 		         		<h1>Contact Us</h1>
 
 					    <form id="contactform" method="post" enctype="text/plain" action="">
