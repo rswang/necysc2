@@ -130,20 +130,7 @@
 		         		<h1>Contact Us</h1>
 
 					    <form method="post" enctype="text/plain" action="
-<?php
 
-  if(isset($_POST['name']) ||
-    isset($_POST['email']) ||
-    isset($_POST['message'])) {
-
-                $email = $_POST['email'] ;
-                $name = $_POST['name'];
-                $message = $_POST['message'] ;
-                $email_message = "Name: ".$name."Email: ".$email.
-                "Message: ".$message
-                mail("rswang@mit.edu", "NECYSC Contact Form",
-                $email_message, "From: rachelwang1994@gmail.com");}
-?>
 					    ">
 					        <div class="form_field">
 					            <label for="name">Name:</label>
