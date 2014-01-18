@@ -60,7 +60,7 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($email_exp,$email)) {
  
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'The email address you entered does not appear to be valid.<br />';
  
   }
  
@@ -110,9 +110,9 @@ if(isset($_POST['email'])) {
  
 // create email headers
  
-$headers = 'From: '.$email_from."\r\n".
+$headers = 'From: '."rachelwang1994@gmail.com"."\r\n".
  
-'Reply-To: '.$email_from."\r\n" .
+'Reply-To: '."rachelwang1994@gmail.com"."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  
