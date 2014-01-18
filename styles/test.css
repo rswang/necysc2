@@ -4,6 +4,10 @@ INDEX
 	// Navigation
 	//
 */
+
+html, body, .main{
+	height: 100%;
+}
 .center{
 	margin-right: auto;
 	margin-left: auto;
@@ -25,8 +29,6 @@ INDEX
 	position:absolute;
 	width: 1000px;
 }
-
-
 
 /* TYPOGRAPHY */
 
@@ -466,6 +468,7 @@ article div{
 }
 
 #announcements {
+	vertical-align: center;
 	overflow: auto;
 }
 
