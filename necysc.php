@@ -131,9 +131,6 @@
 			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
 
-			        	<table>
-			        		<tr>
-			        			<td>
 			        	<div class = 'overlay' id='contactbox'>
 		         	
 		         		<h1>Contact Us</h1>
@@ -157,12 +154,6 @@
 					    </form>
 </div>
 
-		         </td>
-		         <td>
-		         	TEAM!!!
-		         </td>
-		     </tr>
-		 </table>
 
 			         </article>
 			</section> 
