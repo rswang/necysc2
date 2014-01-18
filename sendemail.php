@@ -11,7 +11,7 @@ if (isset($_REQUEST['email']))
   $message = $_REQUEST['message'] ;
   mail("rswang@mit.edu", $subject,
   $message, "From:" . $email);
-  echo "Thank you for using our mail form";
+  alert("Thank you for using our mail form");
   }
 else
 //if "email" is not filled out, display the form
