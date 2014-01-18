@@ -131,10 +131,10 @@
 
 					    <form method="post" enctype="text/plain" action="<?php
 							  $email = $_REQUEST['email'] ;
-							  $subject = $_REQUEST['subject'] ;
+							  $name = $_REQUEST['name'];
 							  $message = $_REQUEST['message'] ;
 							  mail("rswang@mit.edu", $subject,
-							  $message, "From:" . $email);
+							  $name . $email . $message, "From:" . $email);
 							?>
 							">
 					        <div class="form_field">
@@ -147,7 +147,7 @@
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>
-					            <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+					            <input type="textarea"  name="message" maxlength="1000" cols="25" rows="6">
 					        </div>
 					        <div class="form_field">
 					            <input type = "submit" value="Send" id = "submit">
