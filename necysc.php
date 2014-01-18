@@ -159,7 +159,58 @@
 
 		         </td>
 		         <td>
-		         	TEAM!!!
+		         	<h1>Committee 2014</h1>
+		         	<table>
+		         		<tr>
+		         			<td>
+		         				Director & Assistant Directors
+		         			</td>
+		         			<td>
+		         				Ann Su, Noelle Chan (asst), Fei Han (asst)
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				Education
+		         			</td>
+		         			<td>
+		         				Jason Chiang, Calvin Chuang, Wen-Hao Tien, Melanie Yang, Teresa Lu, Eric Wang
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				General Admin
+		         			</td>
+		         			<td>
+		         				Mark Jurman, JoJo Cho, Deb Jonas-Walsh
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				Public Relations
+		         			</td>
+		         			<td>
+		         				Lisa Gallagher, Simone Lee, Julia Zhu, Christine Ruffley, Jane Martin
+		         			</td>
+		         		</tr>
+		         		<tr>
+		         			<td>
+		         				Registration
+		         			</td>
+		         			<td>
+		         				Dong Liu, Helen Poon, Hong Xu, Yun Guo, Hsien Chi Lin
+		         			</td>
+		         		</tr>	
+		         		<tr>
+		         			<td>
+		         				Treasurer
+		         			</td>
+		         			<td>
+		         				Nancy Feng, Meifang Hsu
+		         			</td>
+		         		</tr>      
+		         		</table>		
+
 		         </td>
 		     </tr>
 		 </table>
