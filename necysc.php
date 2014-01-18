@@ -130,11 +130,11 @@
 		         		<h1>Contact Us</h1>
 
 					    <form method="post" enctype="text/plain" action="<?php
-							  $email = $_REQUEST['email'] ;
-							  $name = $_REQUEST['name'];
-							  $message = $_REQUEST['message'] ;
-							  mail("rswang@mit.edu", $subject,
-							  $name . $email . $message, "From:" . $email);
+							  $email = $_POST['email'] ;
+							  $name = $_POST['name'];
+							  $message = $_POST['message'] ;
+							  mail("rswang@mit.edu", "NECYSC Contact Form",
+							  $name . $email . $message, "From: rachelwang1994@gmail.com");
 							?>
 							">
 					        <div class="form_field">
