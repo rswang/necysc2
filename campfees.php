@@ -60,8 +60,8 @@
 					</tr>
 				</table></div>
 			</td>
-			<td>
-				<div class="flexslider">
+			<td >
+				<div id="vertflex" class="flexslider">
 					  <ul class="slides">
 					    <li>
 					      <img src="images/v1.JPG" />
