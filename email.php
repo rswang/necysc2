@@ -1,4 +1,4 @@
-<form name="contactform" method="post" action="mailform.php">
+<form name="contactform" method="post" action="sendemail.php">
  
 <table width="450px">
  
@@ -82,15 +82,7 @@
  
 </tr>
  
-<tr>
- 
- <td colspan="2" style="text-align:center">
- 
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- 
- </td>
- 
-</tr>
+
  
 </table>
  
