@@ -133,9 +133,7 @@
 		         	<div class = 'overlay' id='contactbox'>
 		         		<h1>Contact Us</h1>
 
-					    <form id="contactus" method="post" enctype="text/plain" action="
-
-					    ">
+					    <form id="contactform" method="post" enctype="text/plain" action="">
 					        <div class="form_field">
 					            <label for="name">Name:</label>
 					            <input type="text" name="name" value="" class="text-field"/>
@@ -146,7 +144,7 @@
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>
-					            <textarea form="contactus" name="message" class="text-field" cols="25" rows="6">
+					            <textarea form="contactform" name="message" class="text-field" cols="25" rows="6"></textarea>
 					        </div>
 					        <div class="form_field">
 					            <input type = "submit" value="Send" id = "submit">
