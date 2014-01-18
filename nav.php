@@ -26,8 +26,8 @@
 				<li><a href='forms.php'>Campers & Parents</a>
 					<ul>
 						<li><a href='forms.php'>Forms</a></li>
-						<li><a href=''>Fees & Financial Aid</a></li>
-						<li><a href=''>For Parents</a></li>
+						<li><a href='campfees.php'>Fees & Financial Aid</a></li>
+						<li><a href='parents.php'>For Parents</a></li>
 					</ul>
 				</li>
 
