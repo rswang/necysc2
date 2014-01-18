@@ -128,9 +128,12 @@
 			         </article>
 			</section>  
 
-			<section id="end" data-type="background" data-speed="10" class="parallax pages">
+			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
-		         	<div class = 'overlay' id='contactbox'>
+			        	<table>
+			        		<tr>
+			        			<td>
+		         	<div class = 'overlay'>
 		         		<h1>Contact Us</h1>
 
 					    <form id="contactform" method="post" enctype="text/plain" action="">
@@ -144,16 +147,23 @@
 					        </div>
 					        <div class="form_field">
 					            <label for="message">Message:</label>
-					            <textarea form="contactform" name="message" class="text-field" cols="25" rows="6"></textarea>
+					            <textarea form="contactform" name="message" cols="25" rows="6"></textarea>
 					        </div>
 					        <div class="form_field">
 					            <input type = "submit" value="Send" id = "submit">
 					        </div>
 					    </form>
 		         	</div>
+		         </td>
+		         <td>
+		         	TEAM!!!
+		         </td>
+		     </tr>
+		 </table>
+
 			         </article>
 			</section> 
-			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
+			<section id="end" data-type="background" data-speed="10" class="parallax pages">
 			         <article>team</article>
 			</section> 
 			</div>
