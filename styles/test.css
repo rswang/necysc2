@@ -178,7 +178,11 @@ nav ul ul ul {
 	margin: 0 -10px 0 -10px;
 }
 
-.faqbg {
+#faqdiv{
+	padding-bottom: 100px;
+}
+
+#faqbg {
 	background-image: url(../images/dark_purple.png);
 	background-position: relative;
 }
@@ -352,7 +356,7 @@ form label:hover{
 }
 
 #about { 
- 	background: url('../images/turq_snow.png') 50% 0 repeat fixed;
+ 	background: url('../images/turq_snow-01.png') 50% 0 repeat fixed;
 
  	height: 650px;
 }
@@ -380,24 +384,24 @@ form label:hover{
 }
 
 #day { 
-	background: url('../images/blue_snow-01.png') 50% 0 repeat fixed;
+	background: url('../images/yellow_snow.png') 50% 0 repeat fixed;
 }
 
 
 #overnight { 
-	background: url('../images/light_purple.png') 50% 0 repeat fixed;
+	background: url('../images/light_orange.png') 50% 0 repeat fixed;
 
 }
 
 #explorasian { 
 
-	background: url('../images/light_grey.png') 50% 0 repeat fixed;
+	background: url('../images/light_pink.png') 50% 0 repeat fixed;
 }
 
 
 #staff { 
-	background-color: purple;
-	height: 850px;
+
+	background: url('../images/turq_snow-01.png') 50% 0 repeat fixed;
 }
 
 #faq { 
@@ -427,7 +431,7 @@ form label:hover{
 }
 
 #fees{
-	background: url('../images/light_purple.png') 50% 0 repeat fixed;
+	background: url('../images/light_blue.png') 50% 0 repeat fixed;
 
 }
 
@@ -497,6 +501,7 @@ article div{
 	border-radius: 10px;
 	display: block;
 }
+
 
 /* PROGRAMS */
 
@@ -629,7 +634,7 @@ article div{
 	width: 300px;
 }
 .tprograms{
-	width: 800px;
+	width: 95%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -651,7 +656,7 @@ table #faqtable{
 	font-size: 12pt;
 }
 .questions td p:hover{
-	background-color: rgba(42,188, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 5px;
 	padding:10px;
 }

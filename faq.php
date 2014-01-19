@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<?php include 'header.php'; ?>
-	<body>
+	<body id="faqbg">
 		<!--Navigation-->
 				
 		<?php include 'nav.php'; ?>
@@ -9,8 +9,7 @@
 
 		<!--Main-->
 
-		<div class='main faqbg'>
-
+		<div id = "faqdiv" class='main'>
 		         	<div class = "faqcontainer">
 		         		<table id="faqtable">
 		         			<tr class = 'header'>
@@ -151,7 +150,6 @@
 		         			</tr>
 		         		</table>
 					</div>
-
 		</div>
 	</body>
 </html>
