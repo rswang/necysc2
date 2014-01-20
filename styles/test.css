@@ -202,9 +202,10 @@ nav ul ul ul {
 }
 
 #infobg{
-	background-image: url(../images/light_pink.png);
+	background-image: url(../images/yellow_snow.png);
 	background-position: relative;
 }
+
 
 /* Forms */
 
@@ -443,7 +444,12 @@ form label:hover{
 	background: url('../images/light_pink.png') 50% 0 repeat fixed;
 }
 
-
+#pod{
+	background: url('../images/light_orange.png') 50% 0 repeat fixed;
+}
+#pod2{
+	background: url('../images/light_pink.png') 50% 0 repeat fixed;
+}
 .color {
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
