@@ -81,7 +81,7 @@
 					    </li>
 					  </ul>
 					</div></td>	
-					<td><div class="programcontainer">
+					<td><div class="programcontainer left">
 						<h1>Day Camp</h1>
 						<p><strong>Ages:</strong> 6-10 years old<br>
 						 	<strong>Dates:</strong> August 4-8, 2014<br>
@@ -101,7 +101,7 @@
 		         <article>
 		         	<table class="tprograms">
 		         		<tr>
-					<td><div class="programcontainer">
+					<td><div class="programcontainer right">
 						<h1>Overnight Camp</h1>
 						<p><strong>Ages:</strong> 10-14 years old<br>
 						 	<strong>Dates:</strong> August 3-9, 2014<br>
@@ -153,7 +153,7 @@
 					    </li>
 					  </ul>
 					</div></td>	
-					<td><div class="programcontainer">
+					<td><div class="programcontainer left">
 						<h1>ExplorAsian</h1>
 						<p><strong>Grades:</strong> 9th-12th<br>
 						 	<strong>Dates:</strong> August 3-9, 2014<br>
@@ -169,7 +169,7 @@
 		        <article>
 		         	<table class="tprograms">
 		         		<tr>
-					<td><div class="programcontainer">
+					<td><div class="programcontainer right">
 						<h1>Staff</h1>
 						 <p>Description</p>
 					</div></td>

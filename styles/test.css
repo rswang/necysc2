@@ -485,7 +485,12 @@ article div{
 	padding: 10px 30px;
 	margin: 0px 30px 0px 30px;
 	border-radius: 10px;
+}
+.left{
 	float:left;
+}
+.right{
+	float: right;
 }
 .programcontainer p{
 	text-align:left;
