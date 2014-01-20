@@ -1,5 +1,6 @@
 		<nav>
 			<a id='logo' href='necysc.php'><img id='navlogo' src='images/logo2.png'></a>
+			<a href="#" id="menu-icon"></a>
 			<ul>
 				<li><a href='necysc.php'>Home</a>
 					<ul>
