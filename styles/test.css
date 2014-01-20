@@ -101,7 +101,7 @@ img:hover {
 
 #navlogo{
 	width: 200px;
-	margin: 0px 20px;
+	margin: 0px 0px 0px 10px;
 }
 
 nav {
@@ -204,6 +204,8 @@ a:hover#menu-icon {
 
 }
 
+
+
 @media only screen and (max-width : 905px) {
 
 	#menu-icon {
@@ -219,9 +221,13 @@ a:hover#menu-icon {
 		background: rgba(255,255,255,0.9);
 		right: 20px;
 		top: 60px;
-
+		width: 250px;
 		border-radius: 5px;
 
+	}
+
+	nav ul li:hover{
+		color: #34282C;
 	}
 
 	nav li {
@@ -242,6 +248,7 @@ a:hover#menu-icon {
 	nav ul ul, nav ul ul li, nav ul ul ul, nav ul ul ul li{
 		display: none;
 	}
+}
 
 
 .main {
