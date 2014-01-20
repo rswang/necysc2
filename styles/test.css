@@ -30,6 +30,10 @@ html, body, .main{
 	width: 1000px;
 }
 
+ul, ol{
+	list-style: none;
+}
+
 /* TYPOGRAPHY */
 
 .main a{
@@ -90,6 +94,9 @@ img:hover {
 	display: inline-block;
 }
 
+.smalltext{
+	font-size: 14px;
+}
 /* NAVIGATION */
 
 #navlogo{
@@ -194,6 +201,10 @@ nav ul ul ul {
 	background-position: relative;
 }
 
+#infobg{
+	background-image: url(../images/light_pink.png);
+	background-position: relative;
+}
 
 /* Forms */
 
@@ -432,6 +443,7 @@ form label:hover{
 	background: url('../images/light_pink.png') 50% 0 repeat fixed;
 }
 
+
 .color {
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
  	box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -505,6 +517,12 @@ article div{
 .right{
 	float: right;
 }
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
 .programcontainer p{
 	text-align:left;
 }
@@ -530,6 +548,14 @@ article div{
 	margin: 50px auto;
 	border-radius: 10px;
 	display: block;
+}
+
+.infocontainer{
+	width: 80%;
+	background: rgba(255,255,255,0.8);
+	padding: 10px 30px;
+	margin: 50px auto;
+	border-radius: 10px;
 }
 
 
@@ -626,6 +652,7 @@ article div{
 
  td {
  	padding: 10px;
+ 	vertical-align: top;
  }
 
 #programs td{
@@ -949,4 +976,9 @@ table #faqtable{
    padding: 10px;
    background: rgba(42,198,255, 0.8);
    margin: 150px 0 0 0;
+}
+
+/* Info */
+td{
+	min-width: 100px;
 }
