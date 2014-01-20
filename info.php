@@ -12,13 +12,13 @@
 		
 
 		<!--Main-->
-		<div class= "main">
+		<div id = "infobg" class= "main">
 		<section id="info" data-type="background" data-speed="10" class="parallax pages">
 			<article>
-				<div class="overlay textright">
+				<div class="infocontainer">
 					
 				<h1>Important Dates and Deadlines</h1>
-				<table>
+				<div class="textleft"><table>
 					<tr>
 						<td>
 							<strong>February 1</strong>
@@ -40,8 +40,8 @@
 							<strong>April 1</strong>
 						</td>
 						<td>
-							Day/Overnight/ExplorAsian Application Deadlines<br>
-							**Note: Acceptance is based on a first come first served basis by postmark date of mail-in check and all other required materials. Due to space and resource limitations, we may not be able to accept all applications and may adjust our acceptance and placement guidelines as necessary.
+							Day/Overnight/ExplorAsian Application Deadlines
+							<p class="smalltext"><strong>Note:</strong> Acceptance is based on a first come first served basis by postmark date of mail-in check and all other required materials. Due to space and resource limitations, we may not be able to accept all applications and may adjust our acceptance and placement guidelines as necessary.</p>
 						</td>
 					</tr>
 					<tr>
@@ -78,12 +78,14 @@
 						</td>
 					</tr>
 				</table>
-				<p>Camp Policies</p>
+				
+				<h1>Camp Policies</h1>
 				<ul>
 					<li>Visting Guidelines</li>
 					<li>Parent on Duty Shift</li>
 					<li>Day Camper Checkout Policy</li>
 					<li>Financial Aid</li>
+				</ul>
 				</div>
 			</article>
 		</section>
