@@ -105,8 +105,7 @@ img:hover {
 }
 
 nav {
-
-	padding: 10px;
+	padding: 10px 0px 0px 10px;
 	margin: -10px;
 	position: fixed;
 	z-index: 100;
@@ -206,7 +205,7 @@ a:hover#menu-icon {
 
 
 
-@media only screen and (max-width : 905px) {
+@media only screen and (max-width : 890px) {
 
 	#menu-icon {
 		display:inline-block;
