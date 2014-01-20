@@ -48,19 +48,53 @@
 	    </section>
 		<section id="apply" data-type="background" data-speed="10" class="parallax pages">
 			<article>
-
+				<h1>Apply</h1>
         	</article>
         </section>
 		<section id="forms" data-type="background" data-speed="10" class="parallax pages">
 			<article>
-        <a href='#apply'><input type = "submit" value="Health Form A" id = "formsubmit"></a>
-        <a href='#forms'><input type = "submit" value="Health Form B" id = "formsubmit"></a>
-        <a href='#status'><input type = "submit" value="Liability Waiver" id = "formsubmit"></a>
+				<h1>Download Forms</h1>
+				<table class="center">
+					<tr>
+						<td>
+					        <a href='#apply'><input type = "submit" value="Health Form A" id = "formsubmit"></a>
+					    </td>
+					    <td>
+					        <a href='#forms'><input type = "submit" value="Health Form B" id = "formsubmit"></a>
+					    </td>
+					    <td>
+					        <a href='#status'><input type = "submit" value="Meningococcal Disease Fact Sheet" id = "formsubmit"></a>
+					    </td>
+					    <td>
+					        <a href='#status'><input type = "submit" value="Medication Permission Slip" id = "formsubmit"></a>
+					    </td>
+					    <td>
+					        <a href='#status'><input type = "submit" value="Pickup Authorization Form" id = "formsubmit"></a>
+					    </td>
+					</tr>
+					<tr>
+						<td>
+							<p></p>
+						</td>
+						<td>
+							<p></p>
+						</td>
+						<td>
+							<p></p>
+						</td>
+						<td>
+							<p></p>
+						</td>
+						<td>
+							<p></p>
+						</td>					
+					</tr>
+				</table>
         	</article>
         </section>
 		<section id="status" data-type="background" data-speed="10" class="parallax pages">
 			<article>
-
+				<h1>Check my status</h1>
         	</article>
         </section>
 
