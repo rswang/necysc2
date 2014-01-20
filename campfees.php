@@ -16,7 +16,10 @@
 		<section id="fees" data-type="background" data-speed="10" class="parallax pages">
 			<article>
 				<table class ='tprograms'><tr><td>
+				<h1>Camp Fees</h1>
+
 					<div class='programcontainer right'>
+
 				<table>
 					<tr>
 						<td>
@@ -59,6 +62,8 @@
 						</td>
 					</tr>
 				</table></div>
+					<p>Full payment by check is required to complete the application. Your check will be deposited when the application is accepted. If capacity is reached, we will place your application on the waiting list automatically.</p>
+					<p><strong>Refund Policy: </strong>For accepted campers, there is a $50 non-refundable handling fee charged (per camper) for withdrawal before May 1. No refunds will be made after May 1. There is a $25 fee for changing programs after May 1.</p>
 			</td>
 			<td >
 				<div id="vertflex" class="flexslider">
