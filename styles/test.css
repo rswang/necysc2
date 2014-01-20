@@ -380,7 +380,7 @@ form label:hover{
 
 
 #contact { 
- 	background: url('../images/light_orange-01.png') 50% 0 repeat fixed;
+ 	background: url('../images/light_orange.png') 50% 0 repeat fixed;
 }
 
 #day { 
@@ -411,6 +411,18 @@ form label:hover{
  	background-position: fixed;
 }
  
+ #formsnav {
+	background: url('../images/light_blue.png') 50% 0 repeat fixed;
+}
+ #apply {
+	background: url('../images/light_orange.png') 50% 0 repeat fixed;
+}
+ #forms {
+	background: url('../images/yellow_snow.png') 50% 0 repeat fixed;
+}
+ #status {
+	background: url('../images/light_pink.png') 50% 0 repeat fixed;
+}
 
 .color {
 	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -627,7 +639,7 @@ article div{
 
  /* Image Slider */
 .flexslider{
-
+	max-width: 600px;
 }
 
 #vertflex{
@@ -876,4 +888,44 @@ table #faqtable{
 #committee{
 	width: 500px;
 	text-align: left;
+}
+
+/* Hover 2 */
+
+.hover2 {
+   width: 300px;
+   height: 200px;
+   margin: 10px;
+   float: left;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;
+   cursor: default;
+   background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.hover2 .mask,.hover2 .content {
+   width: 300px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.hover2 img {
+   display: block;
+   position: relative;
+}
+.hover2 h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   background: rgba(42,198,255, 0.8);
+   margin: 150px 0 0 0;
 }
