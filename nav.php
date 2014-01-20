@@ -5,7 +5,6 @@
 					<ul>
 						<li><a href='#about'>About</a></li>
 						<li><a href='#sponsors'>Sponsors</a></li>
-						<li><a href='#contact'>Contact</a></li>
 						<li><a href='#team'>Committee</a></li>
 					</ul>
 				</li>

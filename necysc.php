@@ -126,7 +126,7 @@
 						<a onmouseover="nhpup.popup('If you wish to become a sponsor or advertise in our weekbook, please contact pr@necysc.org.');" href='mailto:pr@necysc.org?Subject=NECYSC%20Sponsor%20Interest'><input type = "submit" value="Sponsor NECYSC!" id = "submit"></a>
 			         </article>
 			</section>  
-			<section id="contact" data-type="background" data-speed="10" class="parallax pages">
+			<section id="team" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
 
 			        	<table class="center">
@@ -190,25 +190,9 @@
 			        	<div class = 'overlay' id='contactbox'>
 		         	
 		         		<h1>Contact Us</h1>
-
-					    <form id="contactform" method="post" enctype="text/plain" action="">
-					        <div class="form_field">
-					            <label for="name">Name:</label>
-					            <input type="text" name="name" value="" class="text-field"/>
-					        </div>
-					        <div class="form_field">
-					            <label for="email">Email:</label>
-					            <input type="text" name="email" value="" class="text-field"/>
-					        </div>
-					        <div class="form_field">
-					            <label for="message">Message:</label>
-					            <textarea form="contactform" name="message" class="text-area"></textarea>
-					        </div>
-					        <div class="form_field">
-					            <input type = "submit" value="Send" id = "send">
-					        </div>
-					    </form>
-</div>
+		         		<p><strong>Questions? </strong>Check out our <a href="faq.php">FAQ</a>!</p>
+		         		<p><strong>Don't see your question?</strong> Shoot us an email <a href='mailto:director@necysc.org?Subject=NECYSC%20Question'> and we'll get back to you as soon as possible.</p>
+						</div>
 
 		         </td>
 		     </tr>

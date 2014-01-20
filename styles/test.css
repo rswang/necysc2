@@ -387,7 +387,7 @@ form label:hover{
 }
 
 
-#contact { 
+#team { 
  	background: url('../images/light_orange.png') 50% 0 repeat fixed;
 }
 
@@ -489,7 +489,7 @@ article div{
 	display: block;
 }
 .clearlay{
-	padding: 10px 30px;
+	padding: 0px 30px;
 	margin: 30px;
 }
 .programcontainer {
