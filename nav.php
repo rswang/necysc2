@@ -3,9 +3,9 @@
 			<ul>
 				<li><a href='necysc.php'>Home</a>
 					<ul>
-						<li><a href='#about'>About</a></li>
-						<li><a href='#sponsors'>Sponsors</a></li>
-						<li><a href='#team'>Committee</a></li>
+						<li><a href='necysc.php#about'>About</a></li>
+						<li><a href='necysc.php#sponsors'>Sponsors</a></li>
+						<li><a href='necysc.php#team'>Committee</a></li>
 					</ul>
 				</li>
 				<li><a href='programs.php'>Programs</a>
