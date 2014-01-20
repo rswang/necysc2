@@ -191,7 +191,7 @@
 		         	
 		         		<h1>Contact Us</h1>
 		         		<p><strong>Questions? </strong>Check out our <a href="faq.php">FAQ</a>!</p>
-		         		<p><strong>Don't see your question?</strong> Shoot us an email <a href='mailto:director@necysc.org?Subject=NECYSC%20Question'> and we'll get back to you as soon as possible.</p>
+		         		<p><strong>Don't see your question?</strong> Shoot us an <a href='mailto:director@necysc.org?Subject=NECYSC%20Question'>email</a> and we'll get back to you as soon as possible.</p>
 						</div>
 
 		         </td>

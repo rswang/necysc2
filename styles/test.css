@@ -907,6 +907,9 @@ table #faqtable{
 	width: 500px;
 	text-align: left;
 }
+#team a{
+	color: #F87431;
+}
 
 /* Hover 2 */
 
