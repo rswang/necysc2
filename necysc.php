@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>NECYSC</title>
-	</head>
 
 	<?php include 'header.php'; ?>
 	<body>
