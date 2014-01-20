@@ -963,7 +963,7 @@ table #faqtable{
    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
    box-shadow: 1px 1px 2px #e6e6e6;
-   cursor: default;
+   cursor: pointer;
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
 .hover2 .mask,.hover2 .content {
