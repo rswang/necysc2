@@ -6,15 +6,15 @@
 						<li><a href='#about'>About</a></li>
 						<li><a href='#sponsors'>Sponsors</a></li>
 						<li><a href='#contact'>Contact</a></li>
-						<li><a href='#team'>Team</a></li>
+						<li><a href='#team'>Committee</a></li>
 					</ul>
 				</li>
 				<li><a href='programs.php'>Programs</a>
 					<ul>
 						<li><a href='programs.php#day'>Day Camp</a></li>
-						<li><a href='/overnight/'>Overnight Camp</a></li>
-						<li><a href='/explorasian/'>ExplorAsian</a></li>
-						<li><a href='/staff'>Staff</a>
+						<li><a href='programs.php#overnight'>Overnight Camp</a></li>
+						<li><a href='programs.php#explorasian'>ExplorAsian</a></li>
+						<li><a href='programs.php#staff'>Staff</a>
 							<ul>
 								<li><a href='/CIT/'>CIT</a></li>
 								<li><a href='/counselor/'>Counselor</a></li>

@@ -8,7 +8,6 @@
 
 	<div class='main'>
 
-	<div class='main'>
 		<section id="formsnav" data-type="background" data-speed="10" class="pages">
 			<article>
 				<table class="center">
