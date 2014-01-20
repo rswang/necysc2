@@ -290,7 +290,7 @@ nav ul ul ul {
 	overflow: auto;
 }
 
-#submit:hover{
+#submit:hover, #formsubmit:hover{
 	background-color:#8ce0ff;
 	font-weight:normal;
 }
