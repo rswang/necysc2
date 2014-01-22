@@ -6,6 +6,7 @@
 					<ul>
 						<li><a href='necysc.php#about'>About</a></li>
 						<li><a href='necysc.php#sponsors'>Sponsors</a></li>
+						<li><a href='necysc.php#video'>Camp Life</a></li>
 						<li><a href='necysc.php#team'>Committee</a></li>
 					</ul>
 				</li>

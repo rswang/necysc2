@@ -123,6 +123,9 @@
 						<a onmouseover="nhpup.popup('If you wish to become a sponsor or advertise in our weekbook, please contact pr@necysc.org.');" href='mailto:pr@necysc.org?Subject=NECYSC%20Sponsor%20Interest'><input type = "submit" value="Sponsor NECYSC!" id = "submit"></a>
 			         </article>
 			</section>  
+						<section id="video" data-type="background" data-speed="10" class="parallax pages">
+			         <article><h1>In the life of camp</h1><iframe width="640" height="360" src="http://www.youtube.com/embed/5w8hE4q_sqI?rel=0" frameborder="0" allowfullscreen></iframe></article>
+			</section> 
 			<section id="team" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
 

@@ -449,7 +449,7 @@ form label:hover{
 }
 
 #hi {
-	background: url('../images/day.jpg') 50% 0 repeat fixed;
+	background: url('../images/bg13.JPG') 50% 0 repeat fixed;
 
 	background-size: cover;
 }
@@ -459,9 +459,9 @@ form label:hover{
 	height: 600px;
 }
 
-#end { 
-	background: url('../images/dark_purple.png') 50% 0 repeat fixed;;
-	background-size: cover;
+#video { 
+	background: url('../images/yellow_snow.png') 50% 0 repeat fixed;
+
 
 }
 
