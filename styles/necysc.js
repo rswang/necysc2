@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	var $window = $(window);
 	$('section[data-type="background"]').each(function(){
 	var $bgobj = $(this); // assigning the object
@@ -58,3 +59,8 @@ $(document).ready(function(){
   }
  
 });
+
+// Create HTML5 elements for IE
+  
+document.createElement("article");
+document.createElement("section");

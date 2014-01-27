@@ -11,14 +11,13 @@
 		<!--Main-->
 		<div id='surprise'><img src='https://scontent-a.xx.fbcdn.net/hphotos-ash3/1098365_10153151796150624_2112943968_n.jpg'>
 		</div>
-
-		
-		<div class='main'>
-
 			<section id="home" data-type="background" data-speed="10" class="parallax pages">     
 		         	<div id = 'announcements' class = 'overlay'>
-	         			<h1>Announcements</h1>
-		         			<p>Camper registration opens <strong>February 1, 2014</strong>. The priority deadline is <strong>February 14</strong> for returning campers. After the priority deadline, campers will be accepted on a first-come, first-serve basis.</p>
+	         			<h1 class="textleft"><i class="icon-right-circled"></i>Announcements</h1>
+		         			<p><i class="icon-calendar"></i><strong>August 3-9, 2014</strong><br>
+		         				<i class="icon-location"></i><strong>Regis College, Weston, MA</strong><br>
+
+		         				<p>Camper registration opens <strong>February 1, 2014</strong>. The priority deadline is <strong>February 14</strong> for returning campers. After the priority deadline, campers will be accepted on a first-come, first-serve basis.</p>
 		         			<p>Counselor and CIT applications have been released and are due <strong>February 1</strong> and <strong>February 14</strong>, respectively.</p>
 		         			<div>
 					            <a href='forms/counselor.pdf'><input type = "submit" value="Counselors" id = "submit"></a>
@@ -82,7 +81,7 @@
         		</div>
 				<div id="aboutus" class="overlay">
 				
-					<h1>About Us</h1>
+					<h1 class = "textleft"><i class="icon-right-circled"></i>About Us</h1>
 					 <p>The New England Chinese Youth Summer Camp (NECYSC) started in 1987 and has been held at Regis College in Weston, MA for over twenty-five years. NECYSC is a non-profit group, affiliated with the Greater Boston Chinese Cultural Association (GBCCA), whose goal is to bring youth together who are interested in Chinese culture and foster a sense of community.</p>
 
 				</div>
@@ -96,8 +95,11 @@
 			</section>  
 
 			<section id="sponsors" data-type="background" data-speed="10" class="parallax pages">
-			         <article><h1>Sponsors</h1>
+			         <article>
 						<table class='sponsortable' border="0">
+						<tr>
+							<td colspan="4"><h1 class= "textleft"><i class="icon-right-circled"></i>Sponsors</h1></td>
+						</tr>
 						<tr>
 						<td><a href="http://www.microsoft.com/"><img class = 'sponsorimg' src="http://www.taiwanembassy.org/xslgip/Boston/images/webtitle.jpg" /></a></td>
 						<td><a href="http://www.microsoft.com/"><img class = 'sponsorimg' src="http://www.gbcca.org/files/gbcca_header.png" /></a></td>
@@ -123,9 +125,6 @@
 						<a onmouseover="nhpup.popup('If you wish to become a sponsor or advertise in our weekbook, please contact pr@necysc.org.');" href='mailto:pr@necysc.org?Subject=NECYSC%20Sponsor%20Interest'><input type = "submit" value="Sponsor NECYSC!" id = "submit"></a>
 			         </article>
 			</section>  
-						<section id="video" data-type="background" data-speed="10" class="parallax pages">
-			         <article><h1>In the life of camp</h1><iframe width="640" height="360" src="http://www.youtube.com/embed/5w8hE4q_sqI?rel=0" frameborder="0" allowfullscreen></iframe></article>
-			</section> 
 			<section id="team" data-type="background" data-speed="10" class="parallax pages">
 			        <article>
 
@@ -133,9 +132,13 @@
 			        		<tr>
 
 		         <td>
-		         	<h1>Committee 2014</h1>
+		         	
 		         	<table id = "committee">
 		         		<tr>
+		         			<td colspan="4"><h1><i class="icon-right-circled"></i>Committee 2014</h1></td>
+		         		</tr>
+		         		<tr>
+
 		         			<td>
 		         				<strong>Director</strong>
 		         			</td>
@@ -189,7 +192,7 @@
 			        			<td>
 			        	<div class = 'overlay' id='contactbox'>
 		         	
-		         		<h1>Contact Us</h1>
+		         		<h1 class="textleft"><i class="icon-right-circled"></i>Contact Us</h1>
 		         		<p><strong>Questions? </strong>Check out our <a href="faq.php">FAQ</a>!</p>
 		         		<p><strong>Don't see your question?</strong> Shoot us an <a href='mailto:director@necysc.org?Subject=NECYSC%20Question'>email</a> and we'll get back to you as soon as possible.</p>
 						</div>
@@ -200,11 +203,17 @@
 
 			         </article>
 			</section>
-			<section id="end" data-type="background" data-speed="10" class="parallax pages">
-			         <article>hm what else...</article>
+			<section id="video" data-type="background" data-speed="10" class="parallax pages">
+			         <article>
+			         	<video id="videobackground" preload controls>
+  <source src="../Downloads/necysc.mp4" type="video/mp4">
+
+  Your browser does not support the video tag.
+</video></article>
 			</section> 
 			</div>
 			<div id='texture'></div>
+
 
 
 
