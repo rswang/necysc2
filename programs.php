@@ -82,7 +82,7 @@
 					  </ul>
 					</div></td>	
 					<td><div class="programcontainer left">
-						<h1>Day Camp</h1>
+						<h1 class="textleft"><i class="icon-right-circled"></i>Day Camp</h1>
 						<p><strong>Ages:</strong> 6-10 years old<br>
 						 	<strong>Dates:</strong> August 4-8, 2014<br>
 						 	<strong>Time:</strong> 8:15am - 5:30pm<br>
@@ -102,7 +102,7 @@
 		         	<table class="tprograms">
 		         		<tr>
 					<td><div class="programcontainer right">
-						<h1>Overnight Camp</h1>
+						<h1 class="textleft"><i class="icon-right-circled"></i>Overnight Camp</h1>
 						<p><strong>Ages:</strong> 10-14 years old<br>
 						 	<strong>Dates:</strong> August 3-9, 2014<br>
 						 	<strong>Program Fee:</strong> $750</p>
@@ -154,7 +154,7 @@
 					  </ul>
 					</div></td>	
 					<td><div class="programcontainer left">
-						<h1>ExplorAsian</h1>
+						<h1 class="textleft"><i class="icon-right-circled"></i>ExplorAsian</h1>
 						<p><strong>Grades:</strong> 9th-12th<br>
 						 	<strong>Dates:</strong> August 3-9, 2014<br>
 						 	<strong>Program Fee:</strong> $750</p>
@@ -170,7 +170,7 @@
 		         	<table class="tprograms">
 		         		<tr>
 					<td><div class="programcontainer right">
-						<h1>Staff</h1>
+						<h1 class="textleft"><i class="icon-right-circled"></i>Staff</h1>
 						 <p>Description</p>
 					</div></td>
 		         			<td>

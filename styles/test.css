@@ -70,15 +70,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, .slogan{
-	font-family: 'Shadows Into Light Two', sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 	text-transform: normal;
 	font-weight: normal;
 	color: rgb(102, 0, 189);
 }
 
 h1{
+	font-family: 'Shadows Into Light Two';
 	font-size: 30px;
 	line-height: 30px;
+}
+#sponsors h1{
+	margin-bottom: 0px;
 }
 .block{
 	display: block;
