@@ -46,6 +46,9 @@ ul, ol{
 
 /* TYPOGRAPHY */
 
+.black{
+	color:black;
+}
 .main a{
 	color: rgb(42, 198, 255);
 	font-weight: normal;
