@@ -8,6 +8,17 @@ INDEX
 html, body, .main{
 	height: 100%;
 }
+
+@font-face {
+  font-family: "Gill Sans2";
+  src: url(gill/GillSans.ttc) format("truetype");
+}
+
+@font-face {
+	font-family: 'Shadows';
+	src: url(Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf) format("truetype");
+}
+
 .center{
 	margin-right: auto;
 	margin-left: auto;
@@ -46,6 +57,9 @@ ul, ol{
 
 /* TYPOGRAPHY */
 
+.white{
+	color:white;
+}
 .black{
 	color:black;
 }
@@ -74,15 +88,20 @@ h1, h2, h3, h4, h5, h6, .slogan{
 	text-transform: normal;
 	font-weight: normal;
 	color: rgb(102, 0, 189);
+	text-shadow: 1px 1px #34282C;
 }
 
 h1{
-	font-family: 'Shadows Into Light Two';
+	font-family: 'Shadows';
 	font-size: 30px;
 	line-height: 30px;
 }
 #sponsors h1{
 	margin-bottom: 0px;
+}
+#necysc h1{
+	font-size: 40px;
+	text-shadow: 2px 2px 10px #34282C;
 }
 .block{
 	display: block;
@@ -120,6 +139,12 @@ img:hover {
 .smalltext{
 	font-size: 14px;
 }
+
+#caption{
+	top:50%;
+
+}
+
 /* NAVIGATION */
 
 #navlogo{
@@ -292,7 +317,7 @@ a:hover#menu-icon {
 }
 
 #infobg{
-	background-image: url(../images/yellow_snow.png);
+	background-image: url(../images/yellow-01.png);
 	background-position: relative;
 }
 
@@ -407,6 +432,15 @@ form label:hover{
 	float:left;
 
 }
+.formcontainer{
+	width: 90%;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.formbuttons{
+	margin: 5px 0px;
+}
 
 #aboutus{
 	display:block;
@@ -516,7 +550,7 @@ form label:hover{
 
 #staff { 
 
-	background: url('../images/turq_snow-01.png') 50% 0 repeat fixed;
+	background: url('../images/blue-01.png') 50% 0 repeat fixed;
 }
 
 #faq { 
@@ -575,6 +609,14 @@ form label:hover{
 
 /* CONTAINERS */
 
+#necysc{
+	position: absolute;
+	float: left;
+	vertical-align: bottom;
+	color: white;
+	bottom: 0px;
+	margin: 0px 20px;
+}
 article div{
 	display: inline-block;
 }
@@ -1042,7 +1084,7 @@ table #faqtable{
 	text-align: left;
 }
 #team a{
-	color: #F87431;
+	color: rgb(102,0, 189);
 }
 
 /* Hover 2 */
