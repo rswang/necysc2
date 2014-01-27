@@ -13,7 +13,7 @@
 		</div>
 			<section id="home" data-type="background" data-speed="10" class="parallax pages">     
 		         	<div id = 'announcements' class = 'overlay'>
-	         			<h1 class="textleft"><i class="icon-right-circled"></i>Announcements</h1>
+	         			<h1 class="textleft black"><i class="icon-right-circled"></i>Announcements</h1>
 		         			<p><i class="icon-calendar"></i><strong>August 3-9, 2014</strong><br>
 		         				<i class="icon-location"></i><strong>Regis College, Weston, MA</strong><br>
 
