@@ -9,6 +9,9 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="styles/flex/jquery.flexslider.js"></script>
+	<!-- icon fonts -->
+	<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+	<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
 		<!-- Place in the <head>, after the three links -->
 		<script type="text/javascript" charset="utf-8">
 		  $(window).load(function() {
