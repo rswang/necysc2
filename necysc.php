@@ -206,10 +206,10 @@
 			<section id="video" data-type="background" data-speed="10" class="parallax pages">
 			         <article>
 			         	<video id="videobackground" preload controls>
-  <source src="../Downloads/necysc.mp4" type="video/mp4">
+  							<source src="images/necysc.mp4" type="video/mp4">
 
-  Your browser does not support the video tag.
-</video></article>
+							Your browser does not support the video tag.
+						</video></article>
 			</section> 
 			</div>
 			<div id='texture'></div>
